@@ -1,0 +1,64 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+#firstSupport h1,
+#firstSupport p,
+#firstSupport div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#firstSupport h1 {
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+
+}
+
+#firstSupport p {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+
+#secondSupport h2,
+#secondSupport p,
+#secondSupport figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#secondSupport h2 {
+    font-family: Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+#secondSupport p {
+    font-family: Verdana, sans-serif;
+    font-size: 21px;
+    color: gray;
+}
+
+#thirdSupport figure,
+#thirdSupport h2,
+#thirdSupport p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#thirdSupport p {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: right;
+}
